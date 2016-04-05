@@ -42,7 +42,6 @@ int main()
     Base testBase;
     Base secondBase;
     testBase.pun();
-    bool sd = noexcept(test(123));
     static_assert( noexcept(test(123)), "wrong" );
     static_assert( noexcept(test(123.3)), "wrong" );
     static_assert( noexcept(test(true)), "wrong" );
