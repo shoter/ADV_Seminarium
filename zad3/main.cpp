@@ -25,8 +25,6 @@ int main()
             std::cout << transformed << std::endl;
         }
     }
-
-    std::cin.get();
     return 0;
 }
 /* OUTPUT :
