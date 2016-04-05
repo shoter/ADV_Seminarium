@@ -42,6 +42,10 @@ int main()
     Base testBase;
     Base secondBase;
     testBase.pun();
+    testBase.fun();
+    Bar testBar;
+    testBar.pun();
+    testBar.fun();
     static_assert( noexcept(test(123)), "wrong" );
     static_assert( noexcept(test(123.3)), "wrong" );
     static_assert( noexcept(test(true)), "wrong" );

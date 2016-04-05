@@ -1,2 +1,2 @@
-#define COMPILE_ERRORS 0
+#define COMPILE_ERRORS 1
 
