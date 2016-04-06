@@ -31,7 +31,7 @@ public :
 #endif
     }
 #if COMPILE_ERRORS
-    void pun() override final
+    void pun() final
     {
         std::cout << "Bar::pun()" << std::endl;
     }
