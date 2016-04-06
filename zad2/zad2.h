@@ -15,6 +15,3 @@ protected :
 
 template<typename T>
 void test(T arg) noexcept(!std::is_same<T, const char *>::value) {}
-
-//template<>
-//void test<const char *>(const char *arg) noexcept(false) {}

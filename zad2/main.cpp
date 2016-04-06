@@ -10,6 +10,8 @@
 //jest wylaczona
 //i ma sie nie kompilowac rzucajac w kazdym miejscu z ifdefem blad gdy flaga rowna jest 1
 
+//W zadaniu nalezy użyć słow kluczowych default, delete, final, noexcept.
+
 class Bar : public Base
 {
 public :
